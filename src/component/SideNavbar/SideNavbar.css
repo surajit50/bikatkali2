@@ -1,0 +1,29 @@
+.sideNavbar {
+    flex: 0.2;
+    min-width: 200px;
+    border-right: 1px dotted rgb(7, 78, 49);
+    height: 100vh;
+    
+}
+.sideNavbar___logo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;  
+}
+
+.sideNavbar__header{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background: #DDDDDD;
+    margin-left: 10px ;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+
+}
