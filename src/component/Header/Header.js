@@ -9,7 +9,7 @@ function Header() {
         <div className='header__leftOption'>
             {/* searchOption */}
             <SearchIcon />
-            <input />
+          
         </div>
        
         

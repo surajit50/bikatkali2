@@ -27,3 +27,44 @@
     font-weight: 600;
 
 }
+
+.sideNavbar__option  {
+  margin: 0;
+}
+
+.sideNavbar__option >  li  {
+    list-style: none;
+    padding: 0 20px;
+    display: block;
+   
+}
+
+.sideNavbar__option >  li > .mlink{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+   margin-bottom: 5px;
+   color: #00AB55;
+   font-weight: 600;
+   align-items: center;
+   padding: 0;
+   
+}
+.sideNavbar__option >  li > .active {
+    background-color: #E5F3EE;
+}
+.sideNavbar__option >  li > .mlink:hover {
+    background-color: #E5F3EE;
+    cursor: pointer !important;
+}
+
+.sideNavbar__option__icon {
+    padding:  5px;
+    margin-bottom: 5px;
+    
+}
+
+.sideNavbar__option__title {
+    padding: 5px;
+    margin-bottom: 5px;
+}
